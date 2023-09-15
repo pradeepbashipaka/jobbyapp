@@ -1,0 +1,15 @@
+.not-found-container {
+  color: #ffffff;
+  background-color: #000000;
+  height: 100vh;
+  background-size: cover;
+}
+
+.not {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.not-found-img {
+  width: 400px;
+}

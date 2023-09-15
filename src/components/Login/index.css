@@ -1,0 +1,75 @@
+.bg-container {
+  background-color: #000000;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: #272727;
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  border-radius: 9px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-logo {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 50px;
+}
+
+.login-heading {
+  font-size: 20px;
+  color: #4f46e5;
+}
+
+.label {
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.input {
+  width: 100%;
+  height: 32px;
+  border: 1px solid #64748b;
+  background-color: transparent;
+  outline: none;
+  padding: 12px;
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.each {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.login-btn {
+  background-color: #6366f1;
+  width: 100%;
+  height: 32px;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: #ff0b37;
+  align-self: flex-start;
+  margin: 0px;
+  font-size: 11px;
+}
